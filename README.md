@@ -1,10 +1,10 @@
-# 🏦 Banking Customer & Risk Analytics Platform
+# Banking Customer & Risk Analytics Platform
 
 A SQL + BI banking analytics project simulating a real-world retail banking data mart focused on **customer profitability, credit risk, fraud detection, and transaction behavior analysis**.
 
 ---
 
-## 📌 Business Context
+## Business Context
 
 Retail banks need to balance **profitability and risk exposure** across millions of customers.
 
@@ -19,11 +19,11 @@ This project simulates a banking analytics environment to answer:
 
 ---
 
-## 🧱 Data Model
+## Data Model
 
 This project uses a simplified banking data mart with 4 core tables:
 
-### 🟦 customers
+### customers
 - customer_id  
 - age  
 - province  
@@ -31,7 +31,7 @@ This project uses a simplified banking data mart with 4 core tables:
 - credit_score  
 - income  
 
-### 🟩 accounts
+### accounts
 - account_id  
 - customer_id  
 - account_type  
@@ -39,7 +39,7 @@ This project uses a simplified banking data mart with 4 core tables:
 - open_date  
 - status  
 
-### 🟨 transactions
+### transactions
 - transaction_id  
 - account_id  
 - transaction_date  
@@ -47,7 +47,7 @@ This project uses a simplified banking data mart with 4 core tables:
 - transaction_type  
 - channel  
 
-### 🟥 loans
+### loans
 - loan_id  
 - customer_id  
 - loan_type  
@@ -57,7 +57,7 @@ This project uses a simplified banking data mart with 4 core tables:
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - SQL (PostgreSQL / MySQL compatible)
 - Data modeling (star-schema style thinking)
